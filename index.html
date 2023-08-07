@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dark-theme">
+    <header>
+        <div class="header-container">
+            <h1 class="blog-title">Chaitanya</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="scroll-animation">
+            <div class="home-content">
+                <div class="intro-box">
+                    <h2>
+                        <span class="intro-line" id="line1">Hii, i'm Chaitanya</span><br>
+                        <span class="intro-line" id="line2">And I create websites and web applications as a web
+                            developer.</span>
+                    </h2>
+                    <div class="buttons">
+                        <a href="#" class="button">Download CV</a>
+                        <a href="#contact" class="button">Contact</a>
+                    </div>
+
+                </div>
+        </section>
+
+
+        <div class="about-me-content">
+            <div class="about-me-left">
+                <div class="about-me-heading">
+
+                    <img src="chaitanya.jfif" alt="Image" width="300" height="300">
+                </div>
+            </div>
+
+            <div class="about-me-right">
+                <div class="about-me-details">
+                    <h2>About Me</h2>
+                    <div class="about-me-detail">Name: chaitanya mane</div>
+                    <div class="about-me-detail">Age: 21</div>
+                    <div class="about-me-detail">Gender: Male</div>
+                    <div class="about-me-detail">Place: Navi Mumbai</div>
+                    <div class="about-me-detail">Email: chaitanyamane2222@gmail.com</div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+        <section id="project" class="project-content" id="projects">
+            <div class="container">
+                <div class="project-title">
+                    <h4>My Projects</h4>
+                </div>
+                <div class="projects">
+                    <!-- 1st Project -->
+
+
+                    <h2>Webpage </h2>
+                    <p>I'm excited to share my new webpage project with you! I made it using HTML, CSS, and JavaScript,
+                        which work together to create a beautiful and interactive experience for users. The HTML gives
+                        the page structure and organization, while CSS makes it look stylish with colors and fonts that
+                        adapt to different devices. JavaScript adds cool animations and makes things interactive, like
+                        forms and navigation. Whether you're on a computer, tablet, or phone, this webpage will provide
+                        an enjoyable and engaging experience, raising the bar for web design. Check it out!
+                    </p>
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="contact-content">
+                <h2>Contact Us</h2>
+                <p></p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <a href="mailto:chaitanyamane2222@gmail.com">Contact: chaitanyamane2222@gmail.com</a>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/chaitanya-mane-7a86ba20b/"><img src="in.jfif" alt="Linked In"
+                        width="50"></a>
+                <a href="https://www.linkedin.com/in/chaitanya-mane-7a86ba20b/"><img src="GitHub.jfif" alt="Github"
+                        width="80"></a>
+                <a href="https://www.instagram.com/_chaitanya_mane_"><img src="insta.jfif" alt="Instagram"
+                        width="50"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
